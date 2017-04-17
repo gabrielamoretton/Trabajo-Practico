@@ -3,32 +3,35 @@
 <head>
 	<meta charset="utf-8">
 	<title>Mi porfolio</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Ubuntu:300,400,700" rel="stylesheet">
 </head>
 <body>
 	<header>
 		<nav>
-			<a href="index.html">GAM</a>
+			<a href="index.html"></a>
 				<img src="imagenes/gam.png">
 			</a>
 			<ul>
 				<li>
-					<a href="sobre-mi.html">Sobre Mi</a>
+					<a href="sobre-mi.html" class="principal">Sobre Mi</a>
 				</li>
 				<li>
-					<a href="porfolio.html">Porfolio</a>
+					<a href="porfolio.html" class="principal">Porfolio</a>
 				</li>
 				<li>
-					<a href="contacto.html">Contacto</a>
+					<a href="contacto.html" class="principal">Contacto</a>
 				</li>
 			</ul>
 			<img src="imagenes/diseño.png" alt="Diseño">
-			<h1>Diseñadora Gráfica & Web</h1>
+			<h1>Gabriela Moretton</h1>
+			<h3>Diseño Gráfico & Web</h3>
 		</nav>
 	</header>
 
 	<section>
-		<div>
-			<article>
+		<div class="section-color">
 				<img src="imagenes/foto.png" alt="Foto">
 				<h2>Sobre Mi</h2>
 				<nav>
@@ -47,12 +50,12 @@
 						</li>
 					</ul>
 				</nav>
-			</article>
+		</div>
 
-			<div>
-				<ul>
-					<li>
-						<article>
+		<div>
+			<ul>
+				<li>
+					<article>
 						<h2>Historia</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -70,79 +73,88 @@
 						</article>
 					</li>
 				</ul>
-			</div>
 		</div>
 	</section>
 
 	<section>
-		<div>
-			<article>
-				<h2>Porfolio</h2>
-				<nav>
-					<ul>
-						<li>
-							<a href="sobre-mi.html">Sobre Mi</a>
-						</li>
-						<li>
-							<a href="porfolio.html">Porfolio</a>
-						</li>
-						<li>
-							<a href="contacto.html">Contacto</a>
-						</li>
-					</ul>
-				</nav>
-			</article>
-
-			<article>
+		<div class="section-color">
+			<h2>Porfolio</h2>
+			<nav>
 				<ul>
 					<li>
-						<img src="imagenes/grafico.png" alt="diseño gráfico">
-						<span>Gráfico</span>
+						<a href="sobre-mi.html">Sobre Mi</a>
 					</li>
 					<li>
-						<img src="imagenes/branding.png" alt="branding">
-						<span>Branding</span>
+						<a href="porfolio.html">Porfolio</a>
 					</li>
 					<li>
-						<img src="imagenes/fotografia.png" alt="fotografía">
-						<span>Fotografía</span>
-					</li>
-					<li>
-						<img src="imagenes/redes-sociales.png" alt="redes-sociales">
-						<span>Redes Sociales</span>
+						<a href="contacto.html">Contacto</a>
 					</li>
 				</ul>
-			</article>
+			</nav>
+		</div>
+
+		<div>
+			<ul>
+				<li>
+					<img src="imagenes/grafico.png" alt="diseño gráfico">
+					<span>Gráfico</span>
+				</li>
+				<li>
+					<img src="imagenes/branding.png" alt="branding">
+					<span>Branding</span>
+				</li>
+				<li>
+					<img src="imagenes/fotografia.png" alt="fotografía">
+					<span>Fotografía</span>
+				</li>
+				<li>
+					<img src="imagenes/redes-sociales.png" alt="redes-sociales">
+					<span>Redes Sociales</span>
+				</li>
+			</ul>
 		</div>
 	</section>
 
-	<section>
+	<section class="section-color">
 		<div>
-			<article>
-				<h2>Contacto</h2>
-				<nav>
-					<ul>
-						<li>
-							<a href="sobre-mi.html">Sobre Mi</a>
-						</li>
-						<li>
-							<a href="porfolio.html">Porfolio</a>
-						</li>
-						<li>
-							<a href="contacto.html">Contacto</a>
-						</li>
-					</ul>
-				</nav>
-			</article>
+			<h2>Contacto</h2>
+			<nav>
+				<ul>
+					<li>
+						<a href="sobre-mi.html">Sobre Mi</a>
+					</li>
+					<li>
+						<a href="porfolio.html">Porfolio</a>
+					</li>
+					<li>
+						<a href="contacto.html">Contacto</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
 
-			<article>
-				<h3>Gabriela Moretton</h3>
-				<div>
-					<a href="https://www.facebook.com/gabrielamoretton/">Facebook</a>
-					<a href="https://www.behance.net/gabrielamoretton">Behance</a>
-					<a href="https://www.linkedin.com/in/gabriela-moretton">Linkedin</a>
-				</div>
-			</article>
+		<div>
+			<h3>Gabriela Moretton</h3>
+			<nav>
+				<ul>
+					<li>
+						<a href="https://www.facebook.com/gabrielamoretton/">
+							<span class="ion-social-facebook icono facebook"></span>
+							</a>
+					</li>
+					<li>
+				   		<a href="https://www.behance.net/gabrielamoretton">
+				   			<span class=""></span>
+				   		</a>
+				   	</li>
+				   	<li>
+						<a href="https://www.linkedin.com/in/gabriela-moretton">
+							<span class="ion-social-linkedin icono linkedin"></span>
+						</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
 	</section>
 
